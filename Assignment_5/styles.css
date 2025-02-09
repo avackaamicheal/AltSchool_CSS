@@ -1,0 +1,221 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", serif;
+    background-color: #F5F8FA;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    align-self: flex-start;
+    justify-self: center;
+    /* border: 1px solid #000; */
+    width: 50%;
+}
+
+
+.navlist {
+    display:inline-flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* border: 1px solid #000; */
+    width: 50%;
+}
+
+.navlist ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+}
+
+
+.main {
+    display: flex;
+    width: 892px;
+    height: 795px;
+    /* border: 5px solid red; */
+    background-color: #FFFFFF;
+    margin: 80px auto;
+}
+
+.form-div {
+    width:60%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    border-radius: 5px 0 0 5px;
+}
+
+.sidebar {
+    width: 40%;
+    height: 100%;
+    background-color: #1179BF;
+    border-radius: 0 5px 5px 0;
+}
+
+.checkout {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    border-bottom: 2px solid #E0E6EA;
+}
+
+.checkout h1 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin: 1.5rem 1.5rem;
+}
+
+.form-information {
+    padding: 20px;
+    border-bottom: 2px solid #E0E6EA;
+}
+
+
+ /* creating the circle for the basic information and payment information*/
+span {
+    /* width: 30px; */
+    /* height: 30px; */
+    border: 2px solid #548BC5;
+    /* border-style: solid; */
+    /* border-color: red; */
+    /* background-color: #548BC5; */
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 0 10px 0 20px;
+}
+
+form {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 20px;
+    /* box-shadow: 0px 4px 50px 0px #0408131A; */
+    /* background-color: #FFFFFF; */
+    gap: 1.5rem;
+}
+
+ /* styling the div right after the form tag */
+form ~ div {
+    width: 90%;
+    padding: 0 20px;
+}
+
+form :nth-child(1) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form :nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    width: 50%;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+
+input {
+    width: 90%;
+    height: 2.5rem;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    display: block;
+    background-color: #EDEFF2;
+    border-radius: 2px;
+}
+
+::placeholder {
+    padding: 0 0 0 10px;
+}
+
+
+/* the design for the payment section */
+
+.payment-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 1.5rem;
+    border-bottom: 2px solid #E0E6EA;
+}
+
+
+.payment {
+    display: flex;
+    width: 90%;
+    height: 2.5rem;
+    margin: 10px 0;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    background-color: #EDEFF2;
+    border-radius: 2px;
+}
+.payment input {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    /* display: block; */
+}
+
+.payment-info span {
+    margin: 0 10px 0 0;
+}
+
+.button-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+[type="button"] {
+    background-color:#038E7D;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.button-div span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 1.5rem;
+    color: #FFFFFF;
+}
+
+
+
+
